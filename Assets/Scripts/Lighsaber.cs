@@ -142,7 +142,7 @@ public class Lighsaber : MonoBehaviour
         Vector3 transformedStartingPoint = other.gameObject.transform.InverseTransformPoint(_triggerEnterTipPosition);
 
         Plane plane = new Plane();
-
+         
         plane.SetNormalAndPosition(
                 transformedNormal,
                 transformedStartingPoint);
